@@ -1,7 +1,7 @@
-3DS Portlibs
+Switch Portlibs
 ============
 
-Here is a Makefile for building various portlibs for 3DS. You need to first
+Here is a Makefile for building various portlibs for switch. You need to first
 build zlib and install it. Then you can build the other portlibs.
 
     $ make zlib
@@ -9,7 +9,7 @@ build zlib and install it. Then you can build the other portlibs.
     $ make <targets>
     $ make install
 
-This will install the portlibs to `$DEVKITPRO/portlibs/armv6k`. If this is a
+This will install the portlibs to `$DEVKITPRO/portlibs/switch`. If this is a
 privileged location, you will need to `sudo make install-zlib` and `sudo make
 install` in order for the portlibs to be installed.
 
